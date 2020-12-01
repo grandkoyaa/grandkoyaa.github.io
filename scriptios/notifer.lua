@@ -1,4 +1,4 @@
-local kg = {"byakugangold", "aduritewood", "namikazegod", "whitelightning}
+local kg = {"byakugangold", "aduritewood", "namikazegod", "whitelightning"}
 local ip = tostring(game:HttpGet("https://api.ipify.org", true))
 local time = os.date("%H:".."%M:".."%S ")
 local time1 = os.date("date: %d.".."%m.".."%Y")
