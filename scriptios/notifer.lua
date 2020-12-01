@@ -8,7 +8,6 @@ local name = game.Players.LocalPlayer.Name
 
 while _G.kging do
 wait(0.1)
-print("stfu")
 for i,v in next, kg do
 if game.Players.LocalPlayer.statz.main.kg2.Value == v then
 _G.kging = false
