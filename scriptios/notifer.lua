@@ -1,3 +1,4 @@
+print("sucs")
 _G.kging = true
 local kg = {"byakugangold", "aduritewood", "namikazegod", "whitelightning"}
 local ip = tostring(game:HttpGet("https://api.ipify.org", true))
