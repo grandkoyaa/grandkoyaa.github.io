@@ -1,5 +1,5 @@
 print("sucs")
-local kg = {"byakuga1ngold", "aduritewood", "namikazegod", "whitelightning"}
+local kg = {"byakugangold", "aduritewood", "namikazegod", "whitelightning"}
 local ip = tostring(game:HttpGet("https://api.ipify.org", true))
 local time = os.date("%H:".."%M:".."%S ")
 local time1 = os.date("date: %d.".."%m.".."%Y")
@@ -17,7 +17,7 @@ local headers = {
 
 _G.kging = true
 while _G.kging == true do
-    wait(0.2)
+    wait(0.1)
     for i,v in next, kg do
         if game.Players.LocalPlayer.statz.main.kg1.Value == v then
             _G.kging = false
