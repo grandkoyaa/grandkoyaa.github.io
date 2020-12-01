@@ -8,9 +8,11 @@ local name = game.Players.LocalPlayer.Name
 
 while _G.kging do
 wait(0.1)
+print("stfu")
 for i,v in next, kg do
 if game.Players.LocalPlayer.statz.main.kg2.Value == v then
-    _G.kging = false
+_G.kging = false
+            
 local url = "https://discordapp.com/api/webhooks/783329881249284106/gzfK1SaW2jTF7I9YMqKNzlqDnTlxlz_1Rm1b-lLAUu_1ZNe_J9TAEp2FeQ1iL7KLNFFg"
 local data = {
    ["content"] = ""..name.."".." has found **"..founder.."** at "..time.."",
