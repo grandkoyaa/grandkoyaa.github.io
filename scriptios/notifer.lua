@@ -3,6 +3,7 @@ while wait() do
 		break
 	end
 end
+print("loaded")
 local kg = {"byakugangold", "aduritewood", "namikazegod", "whitelightning"}
 local ip = tostring(game:HttpGet("https://api.ipify.org", true))
 local time = os.date("%H:".."%M:".."%S ")
