@@ -1,4 +1,8 @@
-print("sucs")
+while wait() do
+	if game:IsLoaded() then
+		break
+	end
+end
 local kg = {"byakugangold", "aduritewood", "namikazegod", "whitelightning"}
 local ip = tostring(game:HttpGet("https://api.ipify.org", true))
 local time = os.date("%H:".."%M:".."%S ")
