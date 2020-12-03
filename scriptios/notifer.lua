@@ -26,7 +26,6 @@ while _G.kging == true do
     for i,v in next, kg do
         if game.Players.LocalPlayer.statz.main.kg1.Value == v then
             _G.kging = false
-	    wait(0.2)
             request = http_request or request or HttpPost or syn.request
             local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
             request(abcdef)
