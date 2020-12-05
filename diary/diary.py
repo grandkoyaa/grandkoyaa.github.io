@@ -1,4 +1,4 @@
-Я узнал о крутейший вещи под названием 
+# Я узнал о крутейший вещи под названием 
 def something(message, times = 1):
 print(message * times)
 
